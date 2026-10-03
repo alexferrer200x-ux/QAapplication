@@ -1,0 +1,52 @@
+[
+  {
+    "question": "What is QA?",
+    "answer": "QA stands for Quality Assurance. It is the process of checking whether a product or service meets quality standards, user expectations, and business requirements before release.",
+    "keywords": ["quality assurance", "quality", "testing", "standards", "process"]
+  },
+  {
+    "question": "What is the difference between QA and QC?",
+    "answer": "QA focuses on preventing defects by improving processes and requirements, while QC focuses on finding defects in the final product through inspection and testing.",
+    "keywords": ["quality control", "prevention", "defects", "inspection", "testing"]
+  },
+  {
+    "question": "How do I report a bug?",
+    "answer": "To report a bug, document the issue clearly with steps to reproduce, expected behavior, actual behavior, environment details, screenshots or logs, and severity. Then submit it to the QA tracking system or project board.",
+    "keywords": ["bug report", "defect", "tracking", "issue", "severity"]
+  },
+  {
+    "question": "What is regression testing?",
+    "answer": "Regression testing is the process of retesting existing functionality to make sure new changes or fixes did not break previously working behavior.",
+    "keywords": ["regression", "retest", "existing functionality", "changes", "fixes"]
+  },
+  {
+    "question": "What is smoke testing?",
+    "answer": "Smoke testing is a quick, basic validation to confirm the most important parts of an application work after a build or deployment before deeper testing begins.",
+    "keywords": ["smoke test", "basic validation", "deployment", "build", "sanity"]
+  },
+  {
+    "question": "What are test cases?",
+    "answer": "Test cases are written steps that describe how to validate a specific function or requirement, including inputs, expected results, and pass/fail criteria.",
+    "keywords": ["test case", "steps", "expected result", "pass fail", "requirement"]
+  },
+  {
+    "question": "What is a test plan?",
+    "answer": "A test plan documents the scope, objectives, strategy, resources, schedule, environment, and entry/exit criteria for testing. It is agreed before execution so everyone understands what will and will not be tested.",
+    "keywords": ["test plan", "scope", "strategy", "schedule", "entry criteria", "exit criteria"]
+  },
+  {
+    "question": "What is test coverage?",
+    "answer": "Test coverage measures which parts of the codebase have been exercised by tests, commonly reported as a percentage. It highlights untested areas of risk but is not a direct measure of test quality.",
+    "keywords": ["coverage", "code coverage", "untested", "percentage", "risk"]
+  },
+  {
+    "question": "What are severity and priority in a bug?",
+    "answer": "Severity is how badly a defect impacts the product or user. Priority is how urgently it should be fixed relative to other work. A high severity issue may still be low priority if it affects a rarely used feature.",
+    "keywords": ["severity", "priority", "critical", "blocker", "impact", "urgency"]
+  },
+  {
+    "question": "When should automated tests be used?",
+    "answer": "Automate repetitive, stable, high-volume checks such as regression suites, API calls, and data validation. Prefer manual testing for exploratory work, usability assessment, and requirements that are still changing.",
+    "keywords": ["automation", "automated testing", "regression suite", "manual testing", "exploratory"]
+  }
+]
